@@ -15,8 +15,14 @@
 /log/*.log
 /tmp
 
-# Ignore .swp file
+# Ignore other unneeded files.
+doc/
 *.swp
+*~
+.project
+.DS_Store
+.idea
+bundle_stubs/
 
 # Ignore the database.yml file
 /config/database.yml
