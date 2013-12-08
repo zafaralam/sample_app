@@ -17,3 +17,6 @@
 
 # Ignore .swp file
 *.swp
+
+# Ignore the database.yml file
+/config/database.yml
